@@ -1,0 +1,406 @@
+<html>
+	<head>
+		<title>Manish Verma</title>
+		<link rel="icon" href="favicon1.ico" type="image/x-icon">
+		<link href="css/fonts.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="modal.css"/>
+		<!-- script
+		 ================================================== 
+		 -->   
+			<script src="js/jquery-2.1.3.min.js"></script>
+			<script type="text/javascript">
+				jQuery('#skills').ready(function(){
+				jQuery('.skillbar').each(function(){
+					jQuery(this).find('.skillbar-bar').animate({
+						width:jQuery(this).attr('data-percent')
+					},8000);
+				});
+			});
+
+			</script>
+	</head>
+	<body>
+	 	<div id="preloader"> 
+    		<div id="loader"></div>
+   		</div>
+		<section id="leftside">
+				<div id="top">
+					<img id="myimage" class="avatar48" src="images/profile-pic.jpg" alt="Manish Verma"/>
+					<h3 class=byline>Manish Verma</h3>
+					<p style="font-family: 'Raleway',sans-serif;">Web Developer</p> 
+				</div>
+				<div id="middle">
+					<div id="nav">
+						<ul>
+							<li class="current"><a class="smoothscroll" href="#intro"><i class="fa fa-home"></i><span>Intro</span></a></li>
+							<li><a class="smoothscroll" href="#about"><i class="fa fa-user"></i><span>About Me</span></a></li>		
+							<li><a class="smoothscroll" href="#skills"><i class="fa fa-asterisk"></i><span>Skills</span></a></li>
+							<li><a class="smoothscroll" href="#education"><i class="fa fa-graduation-cap"></i><span>Education</span></a></li>
+							<li><a class="smoothscroll" href="#portfolio"><i class="fa fa-th"></i><span>Portfolio</span></a></li>
+							<li><a class="smoothscroll" href="#contact"><i class="fa fa-envelope"></i><span>Contact</span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="bottom">
+					<div id="icons">
+						<ul>
+							<li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-github"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>	
+		</section>
+		<!--End of side panel-->
+
+		<div id="main">
+			<section id="intro">
+				<div id="intro-overlay">
+					<div class="intro-content">
+						<h2>Hi! I'm Manish Verma</h2>
+						<h5><span>|</span>&nbsp;Web Designer&nbsp;<span>|</span>&nbsp;Web Developer&nbsp;<span>|</span></h5>
+	   					<div class="intro-button">
+							<a href="#about" class="button smoothscroll">MORE ABOUT ME &nbsp;&nbsp;<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--end of intro section-->
+
+			<section id="about">
+				<div class="section-intro">
+			   			<h5>About</h5>
+			   			<h1>Let me introduce myself.</h1>			
+			   			<div class="intro-info">
+			   				<p class="lead">My name is Manish , and i'm passionate about Web Designing and Development. I am a learner , i have learnt many things during developing this website. I don't believe in 'How to do' , i believe in 'What to do' . Because without knowing 'What to do' there is not any meaning of 'How to do'.</p>
+			   			</div>  		
+			   	</div>
+			   	<table class="profile">
+					<tbody>
+						<tr>
+							<td style="width: 440px;"><span></span><h4>Full Name:</h4><h5>Manish Verma</h5></td>
+							<td><span></span><h4>BirthPlace:</h4><h5>Ghaziabad</h5></td>
+						</tr>
+						<tr>
+							<td style="width: 440px;"><span></span><h4>Birth date:</h4><h5>20 September, 1995</h5></td>
+							<td><span></span><h4>hobbies:</h4><h5>Football, Cricket, Surfing</h5></td>
+						</tr>
+						<tr>
+							<td style="width: 440px;"><span></span><h4>Email:</h4><h5>manishverma656@gmail.com</h5></td>
+							<td><span></span><h4>Website:</h4><h5>www.example.com</h5></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="about-button">
+						<a href="#contact" class="button1 smoothscroll">HIRE ME</a>
+						<a href="#" class="button2">DOWNLOAD CV</a>
+				</div>
+			</section>
+			<!--end of about section-->
+
+			<section id="skills">   
+		   			<div class="skills-overlay">
+		   				<div class="skills-content">
+		   						<span><h5>Skills</h5></span>
+		   						<h1>A look at my Programming Skills</h1>
+						
+							<!--Animated skills Bars-->
+							<div class="skillsbars">
+								<div class="skillbar" data-percent="75%">
+									<div class="skillbar-title" style="background: #f45c5c;"><span>HTML5</span></div>
+									<div class="skillbar-bar" style="background: rgba(244,92,92,0.7);"></div>
+									<div class="skill-bar-percent"><i class="color">75%</i></div>
+								</div> <!-- End Skill Bar -->
+
+								<div class="skillbar" data-percent="80%">
+									<div class="skillbar-title" style="background: rgb(72, 133, 237);"><span>CSS3</span></div>
+									<div class="skillbar-bar" style="background: rgba(72, 133, 237,0.7);"></div>
+									<div class="skill-bar-percent"><i class="color">80%</i></div>
+								</div> <!-- End Skill Bar -->
+
+								<div class="skillbar" data-percent="75%">
+									<div class="skillbar-title" style="background: rgb(44,128,127);"><span>jQuery</span></div>
+									<div class="skillbar-bar" style="background: rgb(52,180,164);"></div>
+									<div class="skill-bar-percent"><i class="color">75%</i></div>
+								</div> <!-- End Skill Bar -->
+
+								<div class="skillbar" data-percent="70%">
+									<div class="skillbar-title" style="background: #d35400 ;"><span>PHP</span></div>
+									<div class="skillbar-bar" style="background: #e67e22;"></div>
+									<div class="skill-bar-percent"><i class="color">70%</i></div>
+								</div> <!-- End Skill Bar -->
+
+								<div class="skillbar" data-percent="75%">
+									<div class="skillbar-title" style="background: #f45c5c;;"><span>JavaScript</span></div>
+									<div class="skillbar-bar" style="background: rgba(244, 92, 92, 0.7);"></div>
+									<div class="skill-bar-percent"><i class="color">75%</i></div>
+								</div> <!-- End Skill Bar -->
+
+								<div class="skillbar" data-percent="55%">
+									<div class="skillbar-title" style="background: #27ae60;"><span>AngularJS</span></div>
+									<div class="skillbar-bar" style="background: #2ecc71;"></div>
+									<div class="skill-bar-percent"><i class="color">55%</i></div>
+								</div> <!-- End Skill Bar -->
+
+								<div class="skillbar" data-percent="60%">
+									<div class="skillbar-title" style="background: rgb(10, 75, 178);"><span>Python</span></div>
+									<div class="skillbar-bar" style="background: rgba(10, 75, 178,0.7);"></div>
+									<div class="skill-bar-percent"><i class="color">60%</i></div>
+								</div> <!-- End Skill Bar -->
+							</div>
+				   		</div>
+		   			</div>
+		   		</section>
+		   		<!--End of skills section-->
+
+		   		<section id="education">
+		   			<div class="education-content">
+		   					<h5>Education</h5>
+		   					<h1>More of my credentials.</h1>				
+		   			</div>
+		   					<div class="timeline-wrap">
+		   						<div class="timeline-block">
+			   						<div class="timeline-ico">
+			   							<i class="fa fa-graduation-cap"></i>
+			   						</div>
+			   						<div class="timeline-header">
+			   							<h3>DIPLOMA</h3>
+			   							<span>August 2013 - June 2016</span>
+			   						</div>
+			   						<div class="timeline-content">
+			   							<h4>Board of technical education DELHI</h4>
+			   							<p>I have completed my 3 year Engineering Diploma in Information Technology (ITES&M) from Ambedkar Institute of Technology.</p>
+			   						</div>
+			   					</div> <!-- /timeline-block -->
+		   						<div class="timeline-block">
+			   						<div style="margin-top:80px;" class="timeline-ico">
+			   							<i class="fa fa-graduation-cap"></i>
+			   						</div>
+			   						<div class="timeline-header">
+			   							<h3 style="padding-top: 80px;">HIGH SCHOOL</h3>
+			   							<span>April 2011 - March 2012</span>
+			   						</div>
+			   						<div class="timeline-content">
+			   							<h4>CBSE DELHI</h4>
+			   							<p>I passed my High School from a Govt. School in Delhi</p>
+			   						</div>
+			   					</div> <!-- /timeline-block -->
+			   				</div>			
+		   		</section>
+		   		<!--end of education section-->
+
+		   		<section id="portfolio">
+		   				<div class="portfolio-intro">
+		   						<h5>Portfolio</h5>
+		   						<h1>Check Out Some of My Works.</h1>
+		   				</div> <!-- /section-intro--> 
+		   				<!--Portfolio Content-->
+		   			<section id="portfolio-content">
+						<div class="col-twelve">
+							<!--Portfolio Wrapper-->
+							<div class="first">
+								<div class="folio-item">
+									<img src="images/portfolio/liberty.jpg" alt="liberty">
+										<a href="#" class="overlay">	                  	           
+				                     		<div class="folio-item-table">
+				                     			<div class="folio-item-cell">
+					     					    	<h3 class="folio-title">Liberty</h3>	     					    
+					     					 	</div>	                      	
+				                     		</div>                    
+				                  		</a>
+								</div> 	
+							</div>
+							<div class="second">
+								<div class="folio-item">
+									<img src="images/portfolio/bicycle.png" alt="bicycle"/>
+										<a href="#" class="overlay">	                  	           
+				                     		<div class="folio-item-table">
+				                     			<div class="folio-item-cell">
+					     					    	<h3 class="folio-title">Bicycle</h3>	     					    
+					     					 	</div>	                      	
+				                     		</div>                    
+				                  		</a>
+				                </div>
+							</div>
+							<div class="third">
+								<div class="folio-item">
+									<img src="images/portfolio/beetle.jpg" alt="beetle"/>
+										<a href="#" class="overlay">	                  	           
+				                     		<div class="folio-item-table">
+				                     			<div class="folio-item-cell">
+					     					    	<h3 class="folio-title">Beetle</h3>
+					     					 	</div>	                      	
+				                     		</div>                    
+				                  		</a>
+								</div>
+							</div>
+							<div class="fourth">
+								<div class="folio-item">
+									<img src="images/portfolio/clouds.jpg" alt="clouds"/>
+										<a href="#" class="overlay">	                  	           
+				                     		<div class="folio-item-table">
+				                     			<div class="folio-item-cell">
+					     					    	<h3 class="folio-title">Clouds</h3>
+					     					 	</div>	                      	
+				                     		</div>                    
+				                  		</a>
+								</div>
+							</div>
+							<div class="fifth">
+								<div class="folio-item">
+									<img src="images/portfolio/shutterbug.jpg" alt="shutterbug"/>
+										<a href="#" class="overlay">	                  	           
+				                     		<div class="folio-item-table">
+				                     			<div class="folio-item-cell">
+					     					    	<h3 class="folio-title">Shutterbug</h3>
+					     					 	</div>	                      	
+				                     		</div>                    
+				                  		</a>
+								</div>
+							</div>
+							<div class="sixth">
+								<div class="folio-item">
+									<img src="images/portfolio/lighthouse.jpg" alt="lighthouse"/>
+										<a href="#" class="overlay">	                  	           
+				                     		<div class="folio-item-table">
+				                     			<div class="folio-item-cell">
+					     					    	<h3 class="folio-title">Light House</h3>
+					     					 	</div>	                      	
+				                     		</div>                    
+				                  		</a>
+								</div>
+							</div>
+						</div>
+					</section>
+		   		</section>
+		   		<!--end of portfolio content-->
+		   	<section id="new">
+		   		<div class="new-content">	
+		   			<p>
+                  Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                  to do what you believe is great work. And the only way to do great work is to love what you do.
+                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                  </p> 
+                  <span><i>-&nbsp;Steve Jobs</i></span>   
+		   		</div>
+		   	</section>
+		   		<!--end of new section-->
+		   	<section id="services">
+		   		<div class="section-intro">
+		   			<h5>Services</h5>
+		   			<h1>What Can I Do For You?</h1>
+		   		</div>
+		   			<div class="supporting">
+   						<div class="container">
+
+							<div class="block">
+								<img src="images/design.png">
+								<h2>Design</h2>
+								<p>Make your projects look great and interact beautifully.</p>
+								<a class="btn-default" href="#">Learn more</a>
+							</div>
+
+							<div class="block">
+								<img src="images/develop.png">
+								<h2>Develop</h2>
+								<p>Use modern tools to turn your design into a web site</p>
+								<a class="btn-default" href="#">Learn more</a>
+							</div>
+
+						    <div class="block">
+						        <img src="images/deploy.png">
+						        <h2>Deploy</h2>
+						        <p>Use modern tools to turn your design into a web site</p>
+						        <a class="btn-default" href="#">Learn more</a>
+						    </div>
+
+  						</div>
+  		   			</div>
+		   	</section>
+		   		<!--End of services section-->
+
+		   	<section id="contact">
+					<div class="contact-overlay">
+						<div class="contact-intro">
+				   			<h5>Contact</h5>
+   							<h1>I'd Love To Hear From You.</h1>
+				   		</div>
+
+				   		<div class="contact-form">
+            				<!-- form -->
+            				<form name="contactForm" id="contactForm" method="post" action="">
+      							<fieldset style="border: none;">
+                  					<div class="form-field">
+ 						   				<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required/>
+                  					</div>
+                  					<div class="form-field">
+	      			   					<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required/>
+	               					</div>
+                  					<div class="form-field">
+	     				   				<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               					</div>                       
+                  					<div class="form-field">
+	                 					<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="7" cols="50" required></textarea>
+	               					</div>                      
+                 					<div class="form-field">
+                     					<button class="submitform">Submit</button>
+                  					</div>
+      							</fieldset>
+      						</form> <!-- Form End -->
+         				</div>
+				    </div>
+			</section> 	
+			<!--end of contact section-->
+			<section id="contact-info">
+   				<div class="contact-info-content">
+   						<div class="container">
+
+							<div class="block">
+								<i class="icons fa fa-map-marker" aria-hidden="true"></i>
+								<h2>Where to find me</h2>
+								<p>240 Rajeev Garden Loni<br>
+								Ghaziabad Uttar Pradesh<br>
+								201102 India</p>
+							</div>
+
+							<div class="block">
+								<i class="icons fa fa-envelope-o" aria-hidden="true"></i>
+								<h2>Email me at</h2>
+								<p style="padding-right: 30px;"><a href="mailto:manishverma656@gmail.com">manishverma656@gmail.com</a><br>
+								<a href="mailto:ambpmanish@gmail.com">ambp.manish@gmail.com</a></p>
+							</div>
+
+						    <div class="block">
+						        <i class="icons fa fa-phone" aria-hidden="true"></i>
+						        <h2>call me at</h2>
+						        <p>Mobile: (+91)&nbsp;8860045709<br>
+						        (+91)&nbsp;7827525229</p>
+						    </div>
+
+  						</div>
+  		   			</div>
+			</section>
+			<!--end of section contact-info-->
+			<!-- Footer -->
+			<div id="footer">
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Copyright 2016</li><li>Design by <span>Manish Verma</span></li>
+					</ul>
+					<div id="go-top">
+		        		 <a class="smoothscroll" title="Back to Top" href="#intro"><i class="fa fa-long-arrow-up"></i></a>
+		      		</div>
+			</div>
+		</div>
+		 <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+   	</body>
+</html>
